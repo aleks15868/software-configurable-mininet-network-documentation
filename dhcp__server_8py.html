@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>software-configurable-mininet-network: dhcp_server.py File Reference</title>
+<title>mininet-diplom: dhcp_server.py File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,7 +25,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">software-configurable-mininet-network
+   <div id="projectname">mininet-diplom<span id="projectnumber">&#160;2.11</span>
    </div>
   </td>
  </tr>
@@ -85,7 +85,7 @@ $(function(){ initResizable(false); });
 <div id="doc-content">
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Data Structures</a> &#124;
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
@@ -95,13 +95,15 @@ $(function(){ initResizable(false); });
 
 <p>Этот файл содержит реализацию простого DHCP-сервера на Python.  
 <a href="#details">More...</a></p>
+
+<p><a href="dhcp__server_8py_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Data Structures</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdhcp__server_1_1_d_h_c_p_server.html">DHCPServer</a></td></tr>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdhcp__server_1_1_d_h_c_p_server.html">dhcp_server.DHCPServer</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Класс для реализации простого DHCP-сервера.  <a href="classdhcp__server_1_1_d_h_c_p_server.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdhcp__server_1_1_pakage_dhcp.html">PakageDhcp</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdhcp__server_1_1_pakage_dhcp.html">dhcp_server.PakageDhcp</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Инициализация объекта DHCP пакета и чтение конфигурационного файла  <a href="classdhcp__server_1_1_pakage_dhcp.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -133,18 +135,22 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:af9ae4c98b638e72204ddd23cfcf73170" id="r_af9ae4c98b638e72204ddd23cfcf73170"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedhcp__server.html#af9ae4c98b638e72204ddd23cfcf73170">read_json_file</a> (file_name)</td></tr>
-<tr class="separator:af9ae4c98b638e72204ddd23cfcf73170"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a654b14238c0c8b58beb1c83750399772" id="r_a654b14238c0c8b58beb1c83750399772"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedhcp__server.html#a654b14238c0c8b58beb1c83750399772">write_to_json_file</a> (data, file_path)</td></tr>
-<tr class="separator:a654b14238c0c8b58beb1c83750399772"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fdb61d625aa8ea9e956cc1085f9e2d5" id="r_a9fdb61d625aa8ea9e956cc1085f9e2d5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedhcp__server.html#a9fdb61d625aa8ea9e956cc1085f9e2d5">dhcp_server.read_json_file</a> (file_name)</td></tr>
+<tr class="memdesc:a9fdb61d625aa8ea9e956cc1085f9e2d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Чтение данных из JSON файла  <br /></td></tr>
+<tr class="separator:a9fdb61d625aa8ea9e956cc1085f9e2d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0aa9b0d7a4f5cde9f63b1b283adb7eb" id="r_ab0aa9b0d7a4f5cde9f63b1b283adb7eb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedhcp__server.html#ab0aa9b0d7a4f5cde9f63b1b283adb7eb">dhcp_server.write_to_json_file</a> (data, file_path)</td></tr>
+<tr class="memdesc:ab0aa9b0d7a4f5cde9f63b1b283adb7eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Запись данных в JSON файл  <br /></td></tr>
+<tr class="separator:ab0aa9b0d7a4f5cde9f63b1b283adb7eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ad7a9ec85fd2d6afd0b70aee6747f62d9" id="r_ad7a9ec85fd2d6afd0b70aee6747f62d9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedhcp__server.html#ad7a9ec85fd2d6afd0b70aee6747f62d9">server_default</a> = <a class="el" href="classdhcp__server_1_1_d_h_c_p_server.html">DHCPServer</a>(output_file=&quot;DHCPoutput.txt&quot;, name_configuration=&quot;configuration.json&quot;)</td></tr>
-<tr class="separator:ad7a9ec85fd2d6afd0b70aee6747f62d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37e67e395ced0683928985023e13a344" id="r_a37e67e395ced0683928985023e13a344"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedhcp__server.html#a37e67e395ced0683928985023e13a344">dhcp_server.server_default</a> = <a class="el" href="classdhcp__server_1_1_d_h_c_p_server.html">DHCPServer</a>(output_file=&quot;DHCPoutput.txt&quot;, name_configuration=&quot;configuration.json&quot;)</td></tr>
+<tr class="separator:a37e67e395ced0683928985023e13a344"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Этот файл содержит реализацию простого DHCP-сервера на Python. </p>
+
+<p class="definition">Definition in file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

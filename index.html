@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>software-configurable-mininet-network: Main Page</title>
+<title>mininet-diplom: Проект DHCP и DNS серверов</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,7 +25,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">software-configurable-mininet-network
+   <div id="projectname">mininet-diplom<span id="projectnumber">&#160;2.11</span>
    </div>
   </td>
  </tr>
@@ -83,10 +83,35 @@ $(function(){ initResizable(false); });
 </div>
 </div>
 
-<div class="header">
-  <div class="headertitle"><div class="title">software-configurable-mininet-network Documentation</div></div>
+<div><div class="header">
+  <div class="headertitle"><div class="title">Проект DHCP и DNS серверов </div></div>
 </div><!--header-->
 <div class="contents">
+<div class="textblock"><h1><a class="anchor" id="intro_sec"></a>
+Введение</h1>
+<p>Этот проект разработан для симуляции DHCP и DNS серверов. Он включает в себя реализацию основных функций серверов, таких как предложение IP-адресов и разрешение доменных имен.</p>
+<h1><a class="anchor" id="author_sec"></a>
+Автор</h1>
+<p>Разработчик: aleks15868 <br  />
+ Почта: <a href="#" onclick="location.href='mai'+'lto:'+'ml9'+'63'+'852'+'@y'+'and'+'ex'+'.ru'; return false;">ml963<span class="obfuscator">.nosp@m.</span>852@<span class="obfuscator">.nosp@m.</span>yande<span class="obfuscator">.nosp@m.</span>x.ru</a></p>
+<h1><a class="anchor" id="config_sec"></a>
+Конфигурация</h1>
+<p>Конфигурация серверов загружается из файла configuration.json. В этом файле содержатся следующие параметры:</p><ul>
+<li>IP-адрес DHCP: 192.168.2.3</li>
+<li>Маска подсети DHCP: 255.255.255.0</li>
+<li>IP-адрес DNS: 192.168.2.4</li>
+<li>Время жизни IP-адреса: 7200 секунд</li>
+<li>Начальный диапазон IP: 192.168.2.5 - 192.168.2.100</li>
+</ul>
+<h1><a class="anchor" id="files_sec"></a>
+Основные файлы проекта</h1>
+<ul>
+<li><a class="el" href="dhcp__server_8py.html">dhcp_server.py</a>: Реализует функционал DHCP сервера.</li>
+<li><a class="el" href="dns__server_8py.html">dns_server.py</a>: Реализует функционал DNS сервера.</li>
+<li>configuration.json: Содержит параметры конфигурации для DHCP и DNS серверов.</li>
+<li>domain_dns_name_ip.json: Содержит список доменов и их IP для DNS сервера. </li>
+</ul>
+</div></div><!-- PageDoc -->
 <a href="doxygen_crawl.html"></a>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>software-configurable-mininet-network: DHCPServer Class Reference</title>
+<title>mininet-diplom: dhcp_server.DHCPServer Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,7 +25,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">software-configurable-mininet-network
+   <div id="projectname">mininet-diplom<span id="projectnumber">&#160;2.11</span>
    </div>
   </td>
  </tr>
@@ -90,9 +90,9 @@ $(function(){ initResizable(false); });
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Data Fields</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a>  </div>
-  <div class="headertitle"><div class="title">DHCPServer Class Reference</div></div>
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="classdhcp__server_1_1_d_h_c_p_server-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">dhcp_server.DHCPServer Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -101,67 +101,76 @@ $(function(){ initResizable(false); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a6114444a509227333585b1bca2d0a637" id="r_a6114444a509227333585b1bca2d0a637"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6114444a509227333585b1bca2d0a637">__init__</a> (self, <a class="el" href="#af8fb0f45ee0195c7422a49e6a8d72369">port</a>=67, <a class="el" href="#a0027706e3a8be4a80cee94753962a880">ip_address</a>='0.0.0.0', <a class="el" href="#a8691fbda845191debece7688e06e3654">output_file</a>=&quot;output.txt&quot;, name_configuration=&quot;configuration.json&quot;)</td></tr>
-<tr class="memdesc:a6114444a509227333585b1bca2d0a637"><td class="mdescLeft">&#160;</td><td class="mdescRight">Конструктор класса <a class="el" href="classdhcp__server_1_1_d_h_c_p_server.html" title="Класс для реализации простого DHCP-сервера.">DHCPServer</a>.  <br /></td></tr>
-<tr class="separator:a6114444a509227333585b1bca2d0a637"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4f427d73c0f080c4fdcda5fa19df116" id="r_ae4f427d73c0f080c4fdcda5fa19df116"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4f427d73c0f080c4fdcda5fa19df116">signal_handler</a> (self, sig, frame)</td></tr>
-<tr class="separator:ae4f427d73c0f080c4fdcda5fa19df116"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc3bf5ceed6d880f35aacd4d5b277b60" id="r_adc3bf5ceed6d880f35aacd4d5b277b60"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc3bf5ceed6d880f35aacd4d5b277b60">log_dhcp_server</a> (self, log)</td></tr>
-<tr class="separator:adc3bf5ceed6d880f35aacd4d5b277b60"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb3b30c60946a22761128cbd397add94" id="r_aeb3b30c60946a22761128cbd397add94"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb3b30c60946a22761128cbd397add94">start</a> (self)</td></tr>
-<tr class="separator:aeb3b30c60946a22761128cbd397add94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9be38096ec10c3d62e0a9533b8c985b9" id="r_a9be38096ec10c3d62e0a9533b8c985b9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9be38096ec10c3d62e0a9533b8c985b9">check_dhcp_packet_range_nack_or_pack</a> (self, ip_start, ip_end, num)</td></tr>
-<tr class="separator:a9be38096ec10c3d62e0a9533b8c985b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e2eca6bf9667b2f26eb05c378cebf62" id="r_a8e2eca6bf9667b2f26eb05c378cebf62"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e2eca6bf9667b2f26eb05c378cebf62">dhcp_server_offer</a> (self)</td></tr>
-<tr class="separator:a8e2eca6bf9667b2f26eb05c378cebf62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43f56e3173ef9f3503318a5c820b1ea8" id="r_a43f56e3173ef9f3503318a5c820b1ea8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43f56e3173ef9f3503318a5c820b1ea8">dhcp_server_pack</a> (self, Request_IP_addres)</td></tr>
-<tr class="separator:a43f56e3173ef9f3503318a5c820b1ea8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad0770d7b3afdf86553bc33f38dcb6b7" id="r_aad0770d7b3afdf86553bc33f38dcb6b7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad0770d7b3afdf86553bc33f38dcb6b7">dhcp_server_nack</a> (self)</td></tr>
-<tr class="separator:aad0770d7b3afdf86553bc33f38dcb6b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a8b1cbcd6ebf28ea2056b39d2167440" id="r_a9a8b1cbcd6ebf28ea2056b39d2167440"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a8b1cbcd6ebf28ea2056b39d2167440">find_available_ip_offer</a> (self, start_ip, end_ip)</td></tr>
-<tr class="separator:a9a8b1cbcd6ebf28ea2056b39d2167440"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ab79e14e24aa440dcd1d9e822eb1f1c" id="r_a8ab79e14e24aa440dcd1d9e822eb1f1c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ab79e14e24aa440dcd1d9e822eb1f1c">close</a> (self)</td></tr>
-<tr class="separator:a8ab79e14e24aa440dcd1d9e822eb1f1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7288d0cc5488b0f68606f409a264a329" id="r_a7288d0cc5488b0f68606f409a264a329"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7288d0cc5488b0f68606f409a264a329">convert_ip_to_hex_format</a> (self, <a class="el" href="#a0027706e3a8be4a80cee94753962a880">ip_address</a>)</td></tr>
-<tr class="separator:a7288d0cc5488b0f68606f409a264a329"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae32ebe56839745c620c2691c2c805e42" id="r_ae32ebe56839745c620c2691c2c805e42"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae32ebe56839745c620c2691c2c805e42">__init__</a> (self, <a class="el" href="#abe7206f4548162466edca27f5248a9dc">port</a>=67, <a class="el" href="#a21ae9d210ab9c3941761b4ca923bd8d2">ip_address</a>='0.0.0.0', <a class="el" href="#a329be5903044163df86455a34be1a1dc">output_file</a>=&quot;output.txt&quot;, name_configuration=&quot;configuration.json&quot;)</td></tr>
+<tr class="memdesc:ae32ebe56839745c620c2691c2c805e42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Конструктор класса <a class="el" href="classdhcp__server_1_1_d_h_c_p_server.html" title="Класс для реализации простого DHCP-сервера.">DHCPServer</a>.  <br /></td></tr>
+<tr class="separator:ae32ebe56839745c620c2691c2c805e42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef51772bf9a3fd3e429488429bc74ccd" id="r_aef51772bf9a3fd3e429488429bc74ccd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef51772bf9a3fd3e429488429bc74ccd">signal_handler</a> (self, sig, frame)</td></tr>
+<tr class="memdesc:aef51772bf9a3fd3e429488429bc74ccd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Метод для обработки сигнала остановки сервера.  <br /></td></tr>
+<tr class="separator:aef51772bf9a3fd3e429488429bc74ccd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae20df4828843283d8fd28a6a9972c4cc" id="r_ae20df4828843283d8fd28a6a9972c4cc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae20df4828843283d8fd28a6a9972c4cc">log_dhcp_server</a> (self, log)</td></tr>
+<tr class="memdesc:ae20df4828843283d8fd28a6a9972c4cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Метод для записи логов DHCP-сервера.  <br /></td></tr>
+<tr class="separator:ae20df4828843283d8fd28a6a9972c4cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a326d9ba6683d3826cdad9bef12353168" id="r_a326d9ba6683d3826cdad9bef12353168"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a326d9ba6683d3826cdad9bef12353168">start</a> (self)</td></tr>
+<tr class="memdesc:a326d9ba6683d3826cdad9bef12353168"><td class="mdescLeft">&#160;</td><td class="mdescRight">Метод для запуска DHCP-сервера.  <br /></td></tr>
+<tr class="separator:a326d9ba6683d3826cdad9bef12353168"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d1747c930252128942774b238ace467" id="r_a4d1747c930252128942774b238ace467"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d1747c930252128942774b238ace467">check_dhcp_packet_range_nack_or_pack</a> (self, ip_start, ip_end, num)</td></tr>
+<tr class="memdesc:a4d1747c930252128942774b238ace467"><td class="mdescLeft">&#160;</td><td class="mdescRight">Метод для проверки, находится ли IP-адрес в заданном диапазоне и доступен ли он.  <br /></td></tr>
+<tr class="separator:a4d1747c930252128942774b238ace467"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5790be0725417d05101f5d47d25e1a6" id="r_aa5790be0725417d05101f5d47d25e1a6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5790be0725417d05101f5d47d25e1a6">dhcp_server_offer</a> (self)</td></tr>
+<tr class="memdesc:aa5790be0725417d05101f5d47d25e1a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Метод для формирования DHCP-пакета с предложением IP-адреса (OFFER).  <br /></td></tr>
+<tr class="separator:aa5790be0725417d05101f5d47d25e1a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a628e5be7f45235428913f16b58bf2538" id="r_a628e5be7f45235428913f16b58bf2538"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a628e5be7f45235428913f16b58bf2538">dhcp_server_pack</a> (self, Request_IP_addres)</td></tr>
+<tr class="memdesc:a628e5be7f45235428913f16b58bf2538"><td class="mdescLeft">&#160;</td><td class="mdescRight">Метод для формирования DHCP-пакета с подтверждением (ACK).  <br /></td></tr>
+<tr class="separator:a628e5be7f45235428913f16b58bf2538"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0389adc1fcab7402d1f00559d21efaf" id="r_ae0389adc1fcab7402d1f00559d21efaf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0389adc1fcab7402d1f00559d21efaf">dhcp_server_nack</a> (self)</td></tr>
+<tr class="memdesc:ae0389adc1fcab7402d1f00559d21efaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Метод для формирования DHCP-пакета с отказом (NACK).  <br /></td></tr>
+<tr class="separator:ae0389adc1fcab7402d1f00559d21efaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3379bfca46137ecca2a4a4b717f64009" id="r_a3379bfca46137ecca2a4a4b717f64009"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3379bfca46137ecca2a4a4b717f64009">find_available_ip_offer</a> (self, start_ip, end_ip)</td></tr>
+<tr class="memdesc:a3379bfca46137ecca2a4a4b717f64009"><td class="mdescLeft">&#160;</td><td class="mdescRight">Поиск доступного IP-адреса для предложения  <br /></td></tr>
+<tr class="separator:a3379bfca46137ecca2a4a4b717f64009"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a247513bdedc5bc1c8216ba76c06e6ef4" id="r_a247513bdedc5bc1c8216ba76c06e6ef4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a247513bdedc5bc1c8216ba76c06e6ef4">close</a> (self)</td></tr>
+<tr class="memdesc:a247513bdedc5bc1c8216ba76c06e6ef4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Закрытие сокета и завершение работы сервера  <br /></td></tr>
+<tr class="separator:a247513bdedc5bc1c8216ba76c06e6ef4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59ccf042f5f89e1ca2481bca2659be89" id="r_a59ccf042f5f89e1ca2481bca2659be89"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59ccf042f5f89e1ca2481bca2659be89">convert_ip_to_hex_format</a> (self, <a class="el" href="#a21ae9d210ab9c3941761b4ca923bd8d2">ip_address</a>)</td></tr>
+<tr class="memdesc:a59ccf042f5f89e1ca2481bca2659be89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Конвертация IP-адреса в шестнадцатеричный формат  <br /></td></tr>
+<tr class="separator:a59ccf042f5f89e1ca2481bca2659be89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Data Fields</h2></td></tr>
-<tr class="memitem:af8fb0f45ee0195c7422a49e6a8d72369" id="r_af8fb0f45ee0195c7422a49e6a8d72369"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8fb0f45ee0195c7422a49e6a8d72369">port</a> = port</td></tr>
-<tr class="separator:af8fb0f45ee0195c7422a49e6a8d72369"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0027706e3a8be4a80cee94753962a880" id="r_a0027706e3a8be4a80cee94753962a880"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0027706e3a8be4a80cee94753962a880">ip_address</a> = ip_address</td></tr>
-<tr class="separator:a0027706e3a8be4a80cee94753962a880"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8691fbda845191debece7688e06e3654" id="r_a8691fbda845191debece7688e06e3654"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8691fbda845191debece7688e06e3654">output_file</a> = output_file</td></tr>
-<tr class="separator:a8691fbda845191debece7688e06e3654"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84edc84c8145e7997b70f9919ce44d68" id="r_a84edc84c8145e7997b70f9919ce44d68"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84edc84c8145e7997b70f9919ce44d68">socket</a> = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)</td></tr>
-<tr class="separator:a84edc84c8145e7997b70f9919ce44d68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aceba1ac7d71da1c7466bc4074ebc8d45" id="r_aceba1ac7d71da1c7466bc4074ebc8d45"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aceba1ac7d71da1c7466bc4074ebc8d45">package_dhcp_transcript</a> = None</td></tr>
-<tr class="separator:aceba1ac7d71da1c7466bc4074ebc8d45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95f1b2bad54fa76b9dfca1663507c45e" id="r_a95f1b2bad54fa76b9dfca1663507c45e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95f1b2bad54fa76b9dfca1663507c45e">Configuration</a> = <a class="el" href="namespacedhcp__server.html#af9ae4c98b638e72204ddd23cfcf73170">read_json_file</a>(name_configuration)</td></tr>
-<tr class="separator:a95f1b2bad54fa76b9dfca1663507c45e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a972ede6d7d076df4c04ae304562b22ee" id="r_a972ede6d7d076df4c04ae304562b22ee"><td class="memItemLeft" align="right" valign="top">list&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a972ede6d7d076df4c04ae304562b22ee">available_ips</a> = <a class="el" href="namespacedhcp__server.html#af9ae4c98b638e72204ddd23cfcf73170">read_json_file</a>('busy_ip_addresses_dhcp.json')</td></tr>
-<tr class="separator:a972ede6d7d076df4c04ae304562b22ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15a7d1fad434fb9b396f0ed49d0a125c" id="r_a15a7d1fad434fb9b396f0ed49d0a125c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15a7d1fad434fb9b396f0ed49d0a125c">signal_handler</a> = []</td></tr>
-<tr class="separator:a15a7d1fad434fb9b396f0ed49d0a125c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58f1ad0bcf03be95d164e457622d2f4b" id="r_a58f1ad0bcf03be95d164e457622d2f4b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58f1ad0bcf03be95d164e457622d2f4b">package_dhcp_transcript</a> = package_dhcp.index(b'\x35') + 2</td></tr>
-<tr class="separator:a58f1ad0bcf03be95d164e457622d2f4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:a3bed04f6192ad4c6126a7d2ac3473ede" id="r_a3bed04f6192ad4c6126a7d2ac3473ede"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bed04f6192ad4c6126a7d2ac3473ede">should_stop</a> = self.socket.recvfrom(1024)</td></tr>
-<tr class="separator:a3bed04f6192ad4c6126a7d2ac3473ede"><td class="memSeparator" colspan="2">&#160;</td></tr>
+Public Attributes</h2></td></tr>
+<tr class="memitem:abe7206f4548162466edca27f5248a9dc" id="r_abe7206f4548162466edca27f5248a9dc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe7206f4548162466edca27f5248a9dc">port</a> = port</td></tr>
+<tr class="separator:abe7206f4548162466edca27f5248a9dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21ae9d210ab9c3941761b4ca923bd8d2" id="r_a21ae9d210ab9c3941761b4ca923bd8d2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21ae9d210ab9c3941761b4ca923bd8d2">ip_address</a> = ip_address</td></tr>
+<tr class="separator:a21ae9d210ab9c3941761b4ca923bd8d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a329be5903044163df86455a34be1a1dc" id="r_a329be5903044163df86455a34be1a1dc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a329be5903044163df86455a34be1a1dc">output_file</a> = output_file</td></tr>
+<tr class="separator:a329be5903044163df86455a34be1a1dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4331294074539d692aa6eea431af2a4d" id="r_a4331294074539d692aa6eea431af2a4d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4331294074539d692aa6eea431af2a4d">socket</a> = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)</td></tr>
+<tr class="separator:a4331294074539d692aa6eea431af2a4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5aa9c571c28ef1476b38fee2dad8d0ae" id="r_a5aa9c571c28ef1476b38fee2dad8d0ae"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5aa9c571c28ef1476b38fee2dad8d0ae">should_stop</a> = False</td></tr>
+<tr class="separator:a5aa9c571c28ef1476b38fee2dad8d0ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54b7efe1ae846e83897facc689e865c1" id="r_a54b7efe1ae846e83897facc689e865c1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54b7efe1ae846e83897facc689e865c1">package_dhcp_transcript</a> = None</td></tr>
+<tr class="separator:a54b7efe1ae846e83897facc689e865c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad174bc5905ff4ee083d6c3e5e30c07ae" id="r_ad174bc5905ff4ee083d6c3e5e30c07ae"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad174bc5905ff4ee083d6c3e5e30c07ae">Configuration</a> = <a class="el" href="namespacedhcp__server.html#a9fdb61d625aa8ea9e956cc1085f9e2d5">read_json_file</a>(name_configuration)</td></tr>
+<tr class="separator:ad174bc5905ff4ee083d6c3e5e30c07ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa47d05eebd10102a10c69452fefca983" id="r_aa47d05eebd10102a10c69452fefca983"><td class="memItemLeft" align="right" valign="top">list&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa47d05eebd10102a10c69452fefca983">available_ips</a> = <a class="el" href="namespacedhcp__server.html#a9fdb61d625aa8ea9e956cc1085f9e2d5">read_json_file</a>('busy_ip_addresses_dhcp.json')</td></tr>
+<tr class="separator:aa47d05eebd10102a10c69452fefca983"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8093b65658a405a68be0fad2348b5fb6" id="r_a8093b65658a405a68be0fad2348b5fb6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8093b65658a405a68be0fad2348b5fb6">signal_handler</a> = []</td></tr>
+<tr class="separator:a8093b65658a405a68be0fad2348b5fb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cb8d23fc6934cf88a938126fed9542b" id="r_a4cb8d23fc6934cf88a938126fed9542b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cb8d23fc6934cf88a938126fed9542b">package_dhcp_transcript</a> = package_dhcp.index(b'\x35') + 2</td></tr>
+<tr class="separator:a4cb8d23fc6934cf88a938126fed9542b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Класс для реализации простого DHCP-сервера. </p>
+
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00036">36</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a6114444a509227333585b1bca2d0a637" name="a6114444a509227333585b1bca2d0a637"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6114444a509227333585b1bca2d0a637">&#9670;&#160;</a></span>__init__()</h2>
+<a id="ae32ebe56839745c620c2691c2c805e42" name="ae32ebe56839745c620c2691c2c805e42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae32ebe56839745c620c2691c2c805e42">&#9670;&#160;</a></span>__init__()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">__init__ </td>
+          <td class="memname">dhcp_server.DHCPServer.__init__ </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
         </tr>
@@ -199,17 +208,19 @@ Static Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00042">42</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a9be38096ec10c3d62e0a9533b8c985b9" name="a9be38096ec10c3d62e0a9533b8c985b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9be38096ec10c3d62e0a9533b8c985b9">&#9670;&#160;</a></span>check_dhcp_packet_range_nack_or_pack()</h2>
+<a id="a4d1747c930252128942774b238ace467" name="a4d1747c930252128942774b238ace467"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d1747c930252128942774b238ace467">&#9670;&#160;</a></span>check_dhcp_packet_range_nack_or_pack()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">check_dhcp_packet_range_nack_or_pack </td>
+          <td class="memname">dhcp_server.DHCPServer.check_dhcp_packet_range_nack_or_pack </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
         </tr>
@@ -231,16 +242,29 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Метод для проверки, находится ли IP-адрес в заданном диапазоне и доступен ли он. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">ip_start</td><td>Начальный IP-адрес. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ip_end</td><td>Конечный IP-адрес. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">num</td><td>Проверяемый IP-адрес. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True, если IP-адрес находится в диапазоне и доступен, иначе False. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00124">124</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
+
 </div>
 </div>
-<a id="a8ab79e14e24aa440dcd1d9e822eb1f1c" name="a8ab79e14e24aa440dcd1d9e822eb1f1c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ab79e14e24aa440dcd1d9e822eb1f1c">&#9670;&#160;</a></span>close()</h2>
+<a id="a247513bdedc5bc1c8216ba76c06e6ef4" name="a247513bdedc5bc1c8216ba76c06e6ef4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a247513bdedc5bc1c8216ba76c06e6ef4">&#9670;&#160;</a></span>close()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">close </td>
+          <td class="memname">dhcp_server.DHCPServer.close </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
           <td></td>
@@ -248,16 +272,21 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Закрытие сокета и завершение работы сервера </p>
+<dl class="section return"><dt>Returns</dt><dd>None </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00220">220</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
+
 </div>
 </div>
-<a id="a7288d0cc5488b0f68606f409a264a329" name="a7288d0cc5488b0f68606f409a264a329"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7288d0cc5488b0f68606f409a264a329">&#9670;&#160;</a></span>convert_ip_to_hex_format()</h2>
+<a id="a59ccf042f5f89e1ca2481bca2659be89" name="a59ccf042f5f89e1ca2481bca2659be89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59ccf042f5f89e1ca2481bca2659be89">&#9670;&#160;</a></span>convert_ip_to_hex_format()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">convert_ip_to_hex_format </td>
+          <td class="memname">dhcp_server.DHCPServer.convert_ip_to_hex_format </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
         </tr>
@@ -269,16 +298,27 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Конвертация IP-адреса в шестнадцатеричный формат </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">ip_address</td><td>IP-адрес для конвертации </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Строка, представляющая IP-адрес в шестнадцатеричном формате </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00229">229</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
+
 </div>
 </div>
-<a id="aad0770d7b3afdf86553bc33f38dcb6b7" name="aad0770d7b3afdf86553bc33f38dcb6b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad0770d7b3afdf86553bc33f38dcb6b7">&#9670;&#160;</a></span>dhcp_server_nack()</h2>
+<a id="ae0389adc1fcab7402d1f00559d21efaf" name="ae0389adc1fcab7402d1f00559d21efaf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0389adc1fcab7402d1f00559d21efaf">&#9670;&#160;</a></span>dhcp_server_nack()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">dhcp_server_nack </td>
+          <td class="memname">dhcp_server.DHCPServer.dhcp_server_nack </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
           <td></td>
@@ -286,16 +326,21 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Метод для формирования DHCP-пакета с отказом (NACK). </p>
+<dl class="section return"><dt>Returns</dt><dd>Сформированный DHCP-пакет в формате hex. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00189">189</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
+
 </div>
 </div>
-<a id="a8e2eca6bf9667b2f26eb05c378cebf62" name="a8e2eca6bf9667b2f26eb05c378cebf62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e2eca6bf9667b2f26eb05c378cebf62">&#9670;&#160;</a></span>dhcp_server_offer()</h2>
+<a id="aa5790be0725417d05101f5d47d25e1a6" name="aa5790be0725417d05101f5d47d25e1a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5790be0725417d05101f5d47d25e1a6">&#9670;&#160;</a></span>dhcp_server_offer()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">dhcp_server_offer </td>
+          <td class="memname">dhcp_server.DHCPServer.dhcp_server_offer </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
           <td></td>
@@ -303,16 +348,21 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Метод для формирования DHCP-пакета с предложением IP-адреса (OFFER). </p>
+<dl class="section return"><dt>Returns</dt><dd>Сформированный DHCP-пакет в формате hex. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00134">134</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
+
 </div>
 </div>
-<a id="a43f56e3173ef9f3503318a5c820b1ea8" name="a43f56e3173ef9f3503318a5c820b1ea8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43f56e3173ef9f3503318a5c820b1ea8">&#9670;&#160;</a></span>dhcp_server_pack()</h2>
+<a id="a628e5be7f45235428913f16b58bf2538" name="a628e5be7f45235428913f16b58bf2538"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a628e5be7f45235428913f16b58bf2538">&#9670;&#160;</a></span>dhcp_server_pack()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">dhcp_server_pack </td>
+          <td class="memname">dhcp_server.DHCPServer.dhcp_server_pack </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
         </tr>
@@ -324,16 +374,27 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Метод для формирования DHCP-пакета с подтверждением (ACK). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">Request_IP_addres</td><td>Запрашиваемый IP-адрес. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Сформированный DHCP-пакет в формате hex. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00162">162</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
+
 </div>
 </div>
-<a id="a9a8b1cbcd6ebf28ea2056b39d2167440" name="a9a8b1cbcd6ebf28ea2056b39d2167440"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a8b1cbcd6ebf28ea2056b39d2167440">&#9670;&#160;</a></span>find_available_ip_offer()</h2>
+<a id="a3379bfca46137ecca2a4a4b717f64009" name="a3379bfca46137ecca2a4a4b717f64009"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3379bfca46137ecca2a4a4b717f64009">&#9670;&#160;</a></span>find_available_ip_offer()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">find_available_ip_offer </td>
+          <td class="memname">dhcp_server.DHCPServer.find_available_ip_offer </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
         </tr>
@@ -350,16 +411,28 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Поиск доступного IP-адреса для предложения </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">start_ip</td><td>Начальный IP-адрес диапазона </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">end_ip</td><td>Конечный IP-адрес диапазона </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Доступный IP-адрес в шестнадцатеричном формате </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00213">213</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
+
 </div>
 </div>
-<a id="adc3bf5ceed6d880f35aacd4d5b277b60" name="adc3bf5ceed6d880f35aacd4d5b277b60"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc3bf5ceed6d880f35aacd4d5b277b60">&#9670;&#160;</a></span>log_dhcp_server()</h2>
+<a id="ae20df4828843283d8fd28a6a9972c4cc" name="ae20df4828843283d8fd28a6a9972c4cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae20df4828843283d8fd28a6a9972c4cc">&#9670;&#160;</a></span>log_dhcp_server()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">log_dhcp_server </td>
+          <td class="memname">dhcp_server.DHCPServer.log_dhcp_server </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
         </tr>
@@ -371,16 +444,26 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Метод для записи логов DHCP-сервера. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">log</td><td>Строка с сообщением для записи в лог. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00070">70</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
+
 </div>
 </div>
-<a id="ae4f427d73c0f080c4fdcda5fa19df116" name="ae4f427d73c0f080c4fdcda5fa19df116"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae4f427d73c0f080c4fdcda5fa19df116">&#9670;&#160;</a></span>signal_handler()</h2>
+<a id="aef51772bf9a3fd3e429488429bc74ccd" name="aef51772bf9a3fd3e429488429bc74ccd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef51772bf9a3fd3e429488429bc74ccd">&#9670;&#160;</a></span>signal_handler()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">signal_handler </td>
+          <td class="memname">dhcp_server.DHCPServer.signal_handler </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
         </tr>
@@ -397,16 +480,27 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Метод для обработки сигнала остановки сервера. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">sig</td><td>Сигнал операционной системы. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">frame</td><td>Контекст выполнения программы. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00062">62</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
+
 </div>
 </div>
-<a id="aeb3b30c60946a22761128cbd397add94" name="aeb3b30c60946a22761128cbd397add94"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb3b30c60946a22761128cbd397add94">&#9670;&#160;</a></span>start()</h2>
+<a id="a326d9ba6683d3826cdad9bef12353168" name="a326d9ba6683d3826cdad9bef12353168"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a326d9ba6683d3826cdad9bef12353168">&#9670;&#160;</a></span>start()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">start </td>
+          <td class="memname">dhcp_server.DHCPServer.start </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
           <td></td>
@@ -414,159 +508,175 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Метод для запуска DHCP-сервера. </p>
+
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00077">77</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
+
 </div>
 </div>
-<h2 class="groupheader">Field Documentation</h2>
-<a id="a972ede6d7d076df4c04ae304562b22ee" name="a972ede6d7d076df4c04ae304562b22ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a972ede6d7d076df4c04ae304562b22ee">&#9670;&#160;</a></span>available_ips</h2>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aa47d05eebd10102a10c69452fefca983" name="aa47d05eebd10102a10c69452fefca983"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa47d05eebd10102a10c69452fefca983">&#9670;&#160;</a></span>available_ips</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">available_ips = <a class="el" href="namespacedhcp__server.html#af9ae4c98b638e72204ddd23cfcf73170">read_json_file</a>('busy_ip_addresses_dhcp.json')</td>
+          <td class="memname">dhcp_server.DHCPServer.available_ips = <a class="el" href="namespacedhcp__server.html#a9fdb61d625aa8ea9e956cc1085f9e2d5">read_json_file</a>('busy_ip_addresses_dhcp.json')</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00053">53</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
+
 </div>
 </div>
-<a id="a95f1b2bad54fa76b9dfca1663507c45e" name="a95f1b2bad54fa76b9dfca1663507c45e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95f1b2bad54fa76b9dfca1663507c45e">&#9670;&#160;</a></span>Configuration</h2>
+<a id="ad174bc5905ff4ee083d6c3e5e30c07ae" name="ad174bc5905ff4ee083d6c3e5e30c07ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad174bc5905ff4ee083d6c3e5e30c07ae">&#9670;&#160;</a></span>Configuration</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Configuration = <a class="el" href="namespacedhcp__server.html#af9ae4c98b638e72204ddd23cfcf73170">read_json_file</a>(name_configuration)</td>
+          <td class="memname">dhcp_server.DHCPServer.Configuration = <a class="el" href="namespacedhcp__server.html#a9fdb61d625aa8ea9e956cc1085f9e2d5">read_json_file</a>(name_configuration)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00049">49</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
+
 </div>
 </div>
-<a id="a0027706e3a8be4a80cee94753962a880" name="a0027706e3a8be4a80cee94753962a880"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0027706e3a8be4a80cee94753962a880">&#9670;&#160;</a></span>ip_address</h2>
+<a id="a21ae9d210ab9c3941761b4ca923bd8d2" name="a21ae9d210ab9c3941761b4ca923bd8d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21ae9d210ab9c3941761b4ca923bd8d2">&#9670;&#160;</a></span>ip_address</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">ip_address = ip_address</td>
+          <td class="memname">dhcp_server.DHCPServer.ip_address = ip_address</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00044">44</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
+
 </div>
 </div>
-<a id="a8691fbda845191debece7688e06e3654" name="a8691fbda845191debece7688e06e3654"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8691fbda845191debece7688e06e3654">&#9670;&#160;</a></span>output_file</h2>
+<a id="a329be5903044163df86455a34be1a1dc" name="a329be5903044163df86455a34be1a1dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a329be5903044163df86455a34be1a1dc">&#9670;&#160;</a></span>output_file</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">output_file = output_file</td>
+          <td class="memname">dhcp_server.DHCPServer.output_file = output_file</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00045">45</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
+
 </div>
 </div>
-<a id="aceba1ac7d71da1c7466bc4074ebc8d45" name="aceba1ac7d71da1c7466bc4074ebc8d45"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aceba1ac7d71da1c7466bc4074ebc8d45">&#9670;&#160;</a></span>package_dhcp_transcript <span class="overload">[1/2]</span></h2>
+<a id="a54b7efe1ae846e83897facc689e865c1" name="a54b7efe1ae846e83897facc689e865c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54b7efe1ae846e83897facc689e865c1">&#9670;&#160;</a></span>package_dhcp_transcript <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">package_dhcp_transcript = None</td>
+          <td class="memname">dhcp_server.DHCPServer.package_dhcp_transcript = None</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00048">48</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
+
 </div>
 </div>
-<a id="a58f1ad0bcf03be95d164e457622d2f4b" name="a58f1ad0bcf03be95d164e457622d2f4b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a58f1ad0bcf03be95d164e457622d2f4b">&#9670;&#160;</a></span>package_dhcp_transcript <span class="overload">[2/2]</span></h2>
+<a id="a4cb8d23fc6934cf88a938126fed9542b" name="a4cb8d23fc6934cf88a938126fed9542b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cb8d23fc6934cf88a938126fed9542b">&#9670;&#160;</a></span>package_dhcp_transcript <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int package_dhcp_transcript = package_dhcp.index(b'\x35') + 2</td>
+          <td class="memname">int dhcp_server.DHCPServer.package_dhcp_transcript = package_dhcp.index(b'\x35') + 2</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00093">93</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
+
 </div>
 </div>
-<a id="af8fb0f45ee0195c7422a49e6a8d72369" name="af8fb0f45ee0195c7422a49e6a8d72369"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af8fb0f45ee0195c7422a49e6a8d72369">&#9670;&#160;</a></span>port</h2>
+<a id="abe7206f4548162466edca27f5248a9dc" name="abe7206f4548162466edca27f5248a9dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe7206f4548162466edca27f5248a9dc">&#9670;&#160;</a></span>port</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">port = port</td>
+          <td class="memname">dhcp_server.DHCPServer.port = port</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a3bed04f6192ad4c6126a7d2ac3473ede" name="a3bed04f6192ad4c6126a7d2ac3473ede"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3bed04f6192ad4c6126a7d2ac3473ede">&#9670;&#160;</a></span>should_stop</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool should_stop = self.socket.recvfrom(1024)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00043">43</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
 
 </div>
 </div>
-<a id="a15a7d1fad434fb9b396f0ed49d0a125c" name="a15a7d1fad434fb9b396f0ed49d0a125c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a15a7d1fad434fb9b396f0ed49d0a125c">&#9670;&#160;</a></span>signal_handler</h2>
+<a id="a5aa9c571c28ef1476b38fee2dad8d0ae" name="a5aa9c571c28ef1476b38fee2dad8d0ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5aa9c571c28ef1476b38fee2dad8d0ae">&#9670;&#160;</a></span>should_stop</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">signal_handler = []</td>
+          <td class="memname">bool dhcp_server.DHCPServer.should_stop = False</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00047">47</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
+
 </div>
 </div>
-<a id="a84edc84c8145e7997b70f9919ce44d68" name="a84edc84c8145e7997b70f9919ce44d68"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a84edc84c8145e7997b70f9919ce44d68">&#9670;&#160;</a></span>socket</h2>
+<a id="a8093b65658a405a68be0fad2348b5fb6" name="a8093b65658a405a68be0fad2348b5fb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8093b65658a405a68be0fad2348b5fb6">&#9670;&#160;</a></span>signal_handler</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)</td>
+          <td class="memname">dhcp_server.DHCPServer.signal_handler = []</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00057">57</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
+
+</div>
+</div>
+<a id="a4331294074539d692aa6eea431af2a4d" name="a4331294074539d692aa6eea431af2a4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4331294074539d692aa6eea431af2a4d">&#9670;&#160;</a></span>socket</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">dhcp_server.DHCPServer.socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00046">46</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="dhcp__server_8py.html">dhcp_server.py</a></li>
+<li><a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

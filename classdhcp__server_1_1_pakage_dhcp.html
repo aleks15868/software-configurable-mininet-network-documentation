@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>software-configurable-mininet-network: PakageDhcp Class Reference</title>
+<title>mininet-diplom: dhcp_server.PakageDhcp Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,7 +25,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">software-configurable-mininet-network
+   <div id="projectname">mininet-diplom<span id="projectnumber">&#160;2.11</span>
    </div>
   </td>
  </tr>
@@ -90,8 +90,9 @@ $(function(){ initResizable(false); });
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Data Fields</a>  </div>
-  <div class="headertitle"><div class="title">PakageDhcp Class Reference</div></div>
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="classdhcp__server_1_1_pakage_dhcp-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">dhcp_server.PakageDhcp Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -100,63 +101,75 @@ $(function(){ initResizable(false); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a6a4148957f37e0aeb42d55a5c8a464a7" id="r_a6a4148957f37e0aeb42d55a5c8a464a7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a4148957f37e0aeb42d55a5c8a464a7">__init__</a> (self, package, name_configuration=&quot;configuration.json&quot;)</td></tr>
-<tr class="separator:a6a4148957f37e0aeb42d55a5c8a464a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f83749fef00b7584d36eeeb2739c3f1" id="r_a4f83749fef00b7584d36eeeb2739c3f1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f83749fef00b7584d36eeeb2739c3f1">process_dhcp_message</a> (self, giaddr='00000000', <a class="el" href="#a4e0a9e26bf11796d8ca091cb6b3ce470">message_type</a>='00')</td></tr>
-<tr class="separator:a4f83749fef00b7584d36eeeb2739c3f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1994c1ed4b0cd50422e4ebe2be9cb5d3" id="r_a1994c1ed4b0cd50422e4ebe2be9cb5d3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1994c1ed4b0cd50422e4ebe2be9cb5d3">apply_find_broadcast</a> (self, ip, mask)</td></tr>
-<tr class="separator:a1994c1ed4b0cd50422e4ebe2be9cb5d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a961520d00dae0ff5039008e37748bb2e" id="r_a961520d00dae0ff5039008e37748bb2e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a961520d00dae0ff5039008e37748bb2e">__init__</a> (self, package, name_configuration=&quot;configuration.json&quot;)</td></tr>
+<tr class="separator:a961520d00dae0ff5039008e37748bb2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cc40b43bfad722aff26a9214f16cb16" id="r_a4cc40b43bfad722aff26a9214f16cb16"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cc40b43bfad722aff26a9214f16cb16">process_dhcp_message</a> (self, giaddr='00000000', <a class="el" href="#ac093819e12ffca98081dda4e73b16609">message_type</a>='00')</td></tr>
+<tr class="memdesc:a4cc40b43bfad722aff26a9214f16cb16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Обработка DHCP-сообщения с различными параметрами адресации  <br /></td></tr>
+<tr class="separator:a4cc40b43bfad722aff26a9214f16cb16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68326d459d3595f0b1211eca9b14eb43" id="r_a68326d459d3595f0b1211eca9b14eb43"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68326d459d3595f0b1211eca9b14eb43">apply_find_broadcast</a> (self, ip, mask)</td></tr>
+<tr class="memdesc:a68326d459d3595f0b1211eca9b14eb43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Нахождение широковещательного адреса на основе IP-адреса и маски подсети  <br /></td></tr>
+<tr class="separator:a68326d459d3595f0b1211eca9b14eb43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Data Fields</h2></td></tr>
-<tr class="memitem:a4e0a9e26bf11796d8ca091cb6b3ce470" id="r_a4e0a9e26bf11796d8ca091cb6b3ce470"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e0a9e26bf11796d8ca091cb6b3ce470">message_type</a> = package[:1*2]</td></tr>
-<tr class="separator:a4e0a9e26bf11796d8ca091cb6b3ce470"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77b2fc6d84d77f8d79924bfc22d46abd" id="r_a77b2fc6d84d77f8d79924bfc22d46abd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77b2fc6d84d77f8d79924bfc22d46abd">hardware_type</a> = package[1*2:2*2]</td></tr>
-<tr class="separator:a77b2fc6d84d77f8d79924bfc22d46abd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2955cbdb31d099417b2973604d63f8f8" id="r_a2955cbdb31d099417b2973604d63f8f8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2955cbdb31d099417b2973604d63f8f8">hardware_address_length</a> = package[2*2:3*2]</td></tr>
-<tr class="separator:a2955cbdb31d099417b2973604d63f8f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2cc6386d1264a40b74f7c52a42c7903" id="r_ad2cc6386d1264a40b74f7c52a42c7903"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2cc6386d1264a40b74f7c52a42c7903">hops</a> = package[3*2:4*2]</td></tr>
-<tr class="separator:ad2cc6386d1264a40b74f7c52a42c7903"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36c52c43812f4c850ae2094cb198048e" id="r_a36c52c43812f4c850ae2094cb198048e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36c52c43812f4c850ae2094cb198048e">transaction_id</a> = package[4*2:8*2]</td></tr>
-<tr class="separator:a36c52c43812f4c850ae2094cb198048e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65f6f96b9b79ed02fc9c0d1b7db9a9e4" id="r_a65f6f96b9b79ed02fc9c0d1b7db9a9e4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65f6f96b9b79ed02fc9c0d1b7db9a9e4">seconds_elapsed</a> = package[8*2:10*2]</td></tr>
-<tr class="separator:a65f6f96b9b79ed02fc9c0d1b7db9a9e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1ed482b309c95582a2647b9dcab3826" id="r_ae1ed482b309c95582a2647b9dcab3826"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1ed482b309c95582a2647b9dcab3826">bootp_flags</a> = package[10*2:12*2]</td></tr>
-<tr class="separator:ae1ed482b309c95582a2647b9dcab3826"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca43ccb3e3d4a5d928858b82335d3740" id="r_aca43ccb3e3d4a5d928858b82335d3740"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca43ccb3e3d4a5d928858b82335d3740">client_ip_address</a> = package[12*2:16*2]</td></tr>
-<tr class="separator:aca43ccb3e3d4a5d928858b82335d3740"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83bb59ab1d5dc96b5c080ad36bcaa900" id="r_a83bb59ab1d5dc96b5c080ad36bcaa900"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83bb59ab1d5dc96b5c080ad36bcaa900">your_client_ip_address</a> = package[16*2:20*2]</td></tr>
-<tr class="separator:a83bb59ab1d5dc96b5c080ad36bcaa900"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3fe29ce84c9e40cea56cd681ec699508" id="r_a3fe29ce84c9e40cea56cd681ec699508"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3fe29ce84c9e40cea56cd681ec699508">next_server_ip_address</a> = package[20*2:24*2]</td></tr>
-<tr class="separator:a3fe29ce84c9e40cea56cd681ec699508"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4cde2da8bc165143b1e45e37ad2a576b" id="r_a4cde2da8bc165143b1e45e37ad2a576b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cde2da8bc165143b1e45e37ad2a576b">relay_agent_ip_address</a> = package[24*2:28*2]</td></tr>
-<tr class="separator:a4cde2da8bc165143b1e45e37ad2a576b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a5168aa20d4407b53759418b27592a4" id="r_a6a5168aa20d4407b53759418b27592a4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a5168aa20d4407b53759418b27592a4">client_mac_address</a> = package[28*2:34*2]</td></tr>
-<tr class="separator:a6a5168aa20d4407b53759418b27592a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f2dc1d80c14e7068b83befab6a6b07d" id="r_a0f2dc1d80c14e7068b83befab6a6b07d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f2dc1d80c14e7068b83befab6a6b07d">client_hardware_address_padding</a> = package[34*2:44*2]</td></tr>
-<tr class="separator:a0f2dc1d80c14e7068b83befab6a6b07d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad369394eaed5e0431f331353dce02563" id="r_ad369394eaed5e0431f331353dce02563"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad369394eaed5e0431f331353dce02563">server_host</a> = package[44*2:108*2]</td></tr>
-<tr class="separator:ad369394eaed5e0431f331353dce02563"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a594a2d00c323b2edb7f00f81ec8f5755" id="r_a594a2d00c323b2edb7f00f81ec8f5755"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a594a2d00c323b2edb7f00f81ec8f5755">boot_file</a> = package[108*2:236*2]</td></tr>
-<tr class="separator:a594a2d00c323b2edb7f00f81ec8f5755"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27607a90b3a9ca82064abdcfaafdbb13" id="r_a27607a90b3a9ca82064abdcfaafdbb13"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27607a90b3a9ca82064abdcfaafdbb13">magick_cookie</a> = package[236*2:240*2]</td></tr>
-<tr class="separator:a27607a90b3a9ca82064abdcfaafdbb13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3cfe71f40b244562d3665516c3934c06" id="r_a3cfe71f40b244562d3665516c3934c06"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3cfe71f40b244562d3665516c3934c06">option</a> = package[240*2:-1*2]</td></tr>
-<tr class="separator:a3cfe71f40b244562d3665516c3934c06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95f1b2bad54fa76b9dfca1663507c45e" id="r_a95f1b2bad54fa76b9dfca1663507c45e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95f1b2bad54fa76b9dfca1663507c45e">Configuration</a> = <a class="el" href="namespacedhcp__server.html#af9ae4c98b638e72204ddd23cfcf73170">read_json_file</a>(name_configuration)</td></tr>
-<tr class="separator:a95f1b2bad54fa76b9dfca1663507c45e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+Public Attributes</h2></td></tr>
+<tr class="memitem:ac093819e12ffca98081dda4e73b16609" id="r_ac093819e12ffca98081dda4e73b16609"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac093819e12ffca98081dda4e73b16609">message_type</a> = package[:1*2]</td></tr>
+<tr class="separator:ac093819e12ffca98081dda4e73b16609"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72517c60a6ea0e0cd0dd88f4445e4586" id="r_a72517c60a6ea0e0cd0dd88f4445e4586"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72517c60a6ea0e0cd0dd88f4445e4586">hardware_type</a> = package[1*2:2*2]</td></tr>
+<tr class="separator:a72517c60a6ea0e0cd0dd88f4445e4586"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff361987cfa12c18f15170d399cb33b3" id="r_aff361987cfa12c18f15170d399cb33b3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff361987cfa12c18f15170d399cb33b3">hardware_address_length</a> = package[2*2:3*2]</td></tr>
+<tr class="separator:aff361987cfa12c18f15170d399cb33b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2487242eb2c31e9e81892ec888d95792" id="r_a2487242eb2c31e9e81892ec888d95792"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2487242eb2c31e9e81892ec888d95792">hops</a> = package[3*2:4*2]</td></tr>
+<tr class="separator:a2487242eb2c31e9e81892ec888d95792"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bc5c8eb767bf924c1101d6bf2cca47e" id="r_a8bc5c8eb767bf924c1101d6bf2cca47e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8bc5c8eb767bf924c1101d6bf2cca47e">transaction_id</a> = package[4*2:8*2]</td></tr>
+<tr class="separator:a8bc5c8eb767bf924c1101d6bf2cca47e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f67c44a49c619ed8a2761ed25c1b794" id="r_a9f67c44a49c619ed8a2761ed25c1b794"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f67c44a49c619ed8a2761ed25c1b794">seconds_elapsed</a> = package[8*2:10*2]</td></tr>
+<tr class="separator:a9f67c44a49c619ed8a2761ed25c1b794"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4cb5de015f859fdbc87318c3be5d344" id="r_af4cb5de015f859fdbc87318c3be5d344"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4cb5de015f859fdbc87318c3be5d344">bootp_flags</a> = package[10*2:12*2]</td></tr>
+<tr class="separator:af4cb5de015f859fdbc87318c3be5d344"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24423ef5fae31391297e07af2770d513" id="r_a24423ef5fae31391297e07af2770d513"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24423ef5fae31391297e07af2770d513">client_ip_address</a> = package[12*2:16*2]</td></tr>
+<tr class="separator:a24423ef5fae31391297e07af2770d513"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52cd3b79d88d2309987779a21ca97804" id="r_a52cd3b79d88d2309987779a21ca97804"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52cd3b79d88d2309987779a21ca97804">your_client_ip_address</a> = package[16*2:20*2]</td></tr>
+<tr class="separator:a52cd3b79d88d2309987779a21ca97804"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbc2daeb8627ccaf61f144b7e7f61894" id="r_afbc2daeb8627ccaf61f144b7e7f61894"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbc2daeb8627ccaf61f144b7e7f61894">next_server_ip_address</a> = package[20*2:24*2]</td></tr>
+<tr class="separator:afbc2daeb8627ccaf61f144b7e7f61894"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a031648f11a465148cb8dd4135802708d" id="r_a031648f11a465148cb8dd4135802708d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a031648f11a465148cb8dd4135802708d">relay_agent_ip_address</a> = package[24*2:28*2]</td></tr>
+<tr class="separator:a031648f11a465148cb8dd4135802708d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa07d95ad0c9347c392d6c7451c067cf" id="r_aaa07d95ad0c9347c392d6c7451c067cf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa07d95ad0c9347c392d6c7451c067cf">client_mac_address</a> = package[28*2:34*2]</td></tr>
+<tr class="separator:aaa07d95ad0c9347c392d6c7451c067cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaae2c12b4ba12398d27eeef79ebcc344" id="r_aaae2c12b4ba12398d27eeef79ebcc344"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaae2c12b4ba12398d27eeef79ebcc344">client_hardware_address_padding</a> = package[34*2:44*2]</td></tr>
+<tr class="separator:aaae2c12b4ba12398d27eeef79ebcc344"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7b334a11a29c2c162c1b2da86e31e8a" id="r_ad7b334a11a29c2c162c1b2da86e31e8a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7b334a11a29c2c162c1b2da86e31e8a">server_host</a> = package[44*2:108*2]</td></tr>
+<tr class="separator:ad7b334a11a29c2c162c1b2da86e31e8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3172a3819f71f8a2dd1159a553e822ac" id="r_a3172a3819f71f8a2dd1159a553e822ac"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3172a3819f71f8a2dd1159a553e822ac">boot_file</a> = package[108*2:236*2]</td></tr>
+<tr class="separator:a3172a3819f71f8a2dd1159a553e822ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98c00a887dc337a181fdfa42a27f8b16" id="r_a98c00a887dc337a181fdfa42a27f8b16"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98c00a887dc337a181fdfa42a27f8b16">magick_cookie</a> = package[236*2:240*2]</td></tr>
+<tr class="separator:a98c00a887dc337a181fdfa42a27f8b16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a196c66e70e1a7ff06dea01a58bc2f164" id="r_a196c66e70e1a7ff06dea01a58bc2f164"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a196c66e70e1a7ff06dea01a58bc2f164">option</a> = package[240*2:-1*2]</td></tr>
+<tr class="separator:a196c66e70e1a7ff06dea01a58bc2f164"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a177e7d0536e2185eccf1dd4ddaa729cb" id="r_a177e7d0536e2185eccf1dd4ddaa729cb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a177e7d0536e2185eccf1dd4ddaa729cb">Configuration</a> = <a class="el" href="namespacedhcp__server.html#a9fdb61d625aa8ea9e956cc1085f9e2d5">read_json_file</a>(name_configuration)</td></tr>
+<tr class="separator:a177e7d0536e2185eccf1dd4ddaa729cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Инициализация объекта DHCP пакета и чтение конфигурационного файла </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">package</td><td>Байтовая строка, представляющая содержимое пакета DHCP </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">name_configuration</td><td>Имя файла конфигурации JSON(по умолчанию "configuration.json") </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>None </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00240">240</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a6a4148957f37e0aeb42d55a5c8a464a7" name="a6a4148957f37e0aeb42d55a5c8a464a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a4148957f37e0aeb42d55a5c8a464a7">&#9670;&#160;</a></span>__init__()</h2>
+<a id="a961520d00dae0ff5039008e37748bb2e" name="a961520d00dae0ff5039008e37748bb2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a961520d00dae0ff5039008e37748bb2e">&#9670;&#160;</a></span>__init__()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">__init__ </td>
+          <td class="memname">dhcp_server.PakageDhcp.__init__ </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
         </tr>
@@ -173,17 +186,19 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00241">241</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a1994c1ed4b0cd50422e4ebe2be9cb5d3" name="a1994c1ed4b0cd50422e4ebe2be9cb5d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1994c1ed4b0cd50422e4ebe2be9cb5d3">&#9670;&#160;</a></span>apply_find_broadcast()</h2>
+<a id="a68326d459d3595f0b1211eca9b14eb43" name="a68326d459d3595f0b1211eca9b14eb43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68326d459d3595f0b1211eca9b14eb43">&#9670;&#160;</a></span>apply_find_broadcast()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">apply_find_broadcast </td>
+          <td class="memname">dhcp_server.PakageDhcp.apply_find_broadcast </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
         </tr>
@@ -200,16 +215,28 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Нахождение широковещательного адреса на основе IP-адреса и маски подсети </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">ip</td><td>IP-адрес в формате строки </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">mask</td><td>Маска подсети в формате строки </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Строка, представляющая широковещательный адрес в шестнадцатеричном формате </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00293">293</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
+
 </div>
 </div>
-<a id="a4f83749fef00b7584d36eeeb2739c3f1" name="a4f83749fef00b7584d36eeeb2739c3f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4f83749fef00b7584d36eeeb2739c3f1">&#9670;&#160;</a></span>process_dhcp_message()</h2>
+<a id="a4cc40b43bfad722aff26a9214f16cb16" name="a4cc40b43bfad722aff26a9214f16cb16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cc40b43bfad722aff26a9214f16cb16">&#9670;&#160;</a></span>process_dhcp_message()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">process_dhcp_message </td>
+          <td class="memname">dhcp_server.PakageDhcp.process_dhcp_message </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
         </tr>
@@ -226,263 +253,311 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Обработка DHCP-сообщения с различными параметрами адресации </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">giaddr</td><td>Адрес DHCP relay (по умолчанию 00000000) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">message_type</td><td>Тип сообщения DHCP </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Строка с адресом назначения в формате IPv4 </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00265">265</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
+
 </div>
 </div>
-<h2 class="groupheader">Field Documentation</h2>
-<a id="a594a2d00c323b2edb7f00f81ec8f5755" name="a594a2d00c323b2edb7f00f81ec8f5755"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a594a2d00c323b2edb7f00f81ec8f5755">&#9670;&#160;</a></span>boot_file</h2>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a3172a3819f71f8a2dd1159a553e822ac" name="a3172a3819f71f8a2dd1159a553e822ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3172a3819f71f8a2dd1159a553e822ac">&#9670;&#160;</a></span>boot_file</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">boot_file = package[108*2:236*2]</td>
+          <td class="memname">dhcp_server.PakageDhcp.boot_file = package[108*2:236*2]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00256">256</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
+
 </div>
 </div>
-<a id="ae1ed482b309c95582a2647b9dcab3826" name="ae1ed482b309c95582a2647b9dcab3826"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae1ed482b309c95582a2647b9dcab3826">&#9670;&#160;</a></span>bootp_flags</h2>
+<a id="af4cb5de015f859fdbc87318c3be5d344" name="af4cb5de015f859fdbc87318c3be5d344"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4cb5de015f859fdbc87318c3be5d344">&#9670;&#160;</a></span>bootp_flags</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">str bootp_flags = package[10*2:12*2]</td>
+          <td class="memname">str dhcp_server.PakageDhcp.bootp_flags = package[10*2:12*2]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00248">248</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
+
 </div>
 </div>
-<a id="a0f2dc1d80c14e7068b83befab6a6b07d" name="a0f2dc1d80c14e7068b83befab6a6b07d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f2dc1d80c14e7068b83befab6a6b07d">&#9670;&#160;</a></span>client_hardware_address_padding</h2>
+<a id="aaae2c12b4ba12398d27eeef79ebcc344" name="aaae2c12b4ba12398d27eeef79ebcc344"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaae2c12b4ba12398d27eeef79ebcc344">&#9670;&#160;</a></span>client_hardware_address_padding</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">client_hardware_address_padding = package[34*2:44*2]</td>
+          <td class="memname">dhcp_server.PakageDhcp.client_hardware_address_padding = package[34*2:44*2]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00254">254</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
+
 </div>
 </div>
-<a id="aca43ccb3e3d4a5d928858b82335d3740" name="aca43ccb3e3d4a5d928858b82335d3740"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca43ccb3e3d4a5d928858b82335d3740">&#9670;&#160;</a></span>client_ip_address</h2>
+<a id="a24423ef5fae31391297e07af2770d513" name="a24423ef5fae31391297e07af2770d513"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24423ef5fae31391297e07af2770d513">&#9670;&#160;</a></span>client_ip_address</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">client_ip_address = package[12*2:16*2]</td>
+          <td class="memname">dhcp_server.PakageDhcp.client_ip_address = package[12*2:16*2]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00249">249</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
+
 </div>
 </div>
-<a id="a6a5168aa20d4407b53759418b27592a4" name="a6a5168aa20d4407b53759418b27592a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a5168aa20d4407b53759418b27592a4">&#9670;&#160;</a></span>client_mac_address</h2>
+<a id="aaa07d95ad0c9347c392d6c7451c067cf" name="aaa07d95ad0c9347c392d6c7451c067cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa07d95ad0c9347c392d6c7451c067cf">&#9670;&#160;</a></span>client_mac_address</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">client_mac_address = package[28*2:34*2]</td>
+          <td class="memname">dhcp_server.PakageDhcp.client_mac_address = package[28*2:34*2]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00253">253</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
+
 </div>
 </div>
-<a id="a95f1b2bad54fa76b9dfca1663507c45e" name="a95f1b2bad54fa76b9dfca1663507c45e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95f1b2bad54fa76b9dfca1663507c45e">&#9670;&#160;</a></span>Configuration</h2>
+<a id="a177e7d0536e2185eccf1dd4ddaa729cb" name="a177e7d0536e2185eccf1dd4ddaa729cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a177e7d0536e2185eccf1dd4ddaa729cb">&#9670;&#160;</a></span>Configuration</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Configuration = <a class="el" href="namespacedhcp__server.html#af9ae4c98b638e72204ddd23cfcf73170">read_json_file</a>(name_configuration)</td>
+          <td class="memname">dhcp_server.PakageDhcp.Configuration = <a class="el" href="namespacedhcp__server.html#a9fdb61d625aa8ea9e956cc1085f9e2d5">read_json_file</a>(name_configuration)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00259">259</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
+
 </div>
 </div>
-<a id="a2955cbdb31d099417b2973604d63f8f8" name="a2955cbdb31d099417b2973604d63f8f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2955cbdb31d099417b2973604d63f8f8">&#9670;&#160;</a></span>hardware_address_length</h2>
+<a id="aff361987cfa12c18f15170d399cb33b3" name="aff361987cfa12c18f15170d399cb33b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff361987cfa12c18f15170d399cb33b3">&#9670;&#160;</a></span>hardware_address_length</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">hardware_address_length = package[2*2:3*2]</td>
+          <td class="memname">dhcp_server.PakageDhcp.hardware_address_length = package[2*2:3*2]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00244">244</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
+
 </div>
 </div>
-<a id="a77b2fc6d84d77f8d79924bfc22d46abd" name="a77b2fc6d84d77f8d79924bfc22d46abd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a77b2fc6d84d77f8d79924bfc22d46abd">&#9670;&#160;</a></span>hardware_type</h2>
+<a id="a72517c60a6ea0e0cd0dd88f4445e4586" name="a72517c60a6ea0e0cd0dd88f4445e4586"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72517c60a6ea0e0cd0dd88f4445e4586">&#9670;&#160;</a></span>hardware_type</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">hardware_type = package[1*2:2*2]</td>
+          <td class="memname">dhcp_server.PakageDhcp.hardware_type = package[1*2:2*2]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00243">243</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
+
 </div>
 </div>
-<a id="ad2cc6386d1264a40b74f7c52a42c7903" name="ad2cc6386d1264a40b74f7c52a42c7903"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad2cc6386d1264a40b74f7c52a42c7903">&#9670;&#160;</a></span>hops</h2>
+<a id="a2487242eb2c31e9e81892ec888d95792" name="a2487242eb2c31e9e81892ec888d95792"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2487242eb2c31e9e81892ec888d95792">&#9670;&#160;</a></span>hops</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">hops = package[3*2:4*2]</td>
+          <td class="memname">dhcp_server.PakageDhcp.hops = package[3*2:4*2]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00245">245</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
+
 </div>
 </div>
-<a id="a27607a90b3a9ca82064abdcfaafdbb13" name="a27607a90b3a9ca82064abdcfaafdbb13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27607a90b3a9ca82064abdcfaafdbb13">&#9670;&#160;</a></span>magick_cookie</h2>
+<a id="a98c00a887dc337a181fdfa42a27f8b16" name="a98c00a887dc337a181fdfa42a27f8b16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98c00a887dc337a181fdfa42a27f8b16">&#9670;&#160;</a></span>magick_cookie</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">magick_cookie = package[236*2:240*2]</td>
+          <td class="memname">dhcp_server.PakageDhcp.magick_cookie = package[236*2:240*2]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00257">257</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
+
 </div>
 </div>
-<a id="a4e0a9e26bf11796d8ca091cb6b3ce470" name="a4e0a9e26bf11796d8ca091cb6b3ce470"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e0a9e26bf11796d8ca091cb6b3ce470">&#9670;&#160;</a></span>message_type</h2>
+<a id="ac093819e12ffca98081dda4e73b16609" name="ac093819e12ffca98081dda4e73b16609"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac093819e12ffca98081dda4e73b16609">&#9670;&#160;</a></span>message_type</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">message_type = package[:1*2]</td>
+          <td class="memname">dhcp_server.PakageDhcp.message_type = package[:1*2]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00242">242</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
+
 </div>
 </div>
-<a id="a3fe29ce84c9e40cea56cd681ec699508" name="a3fe29ce84c9e40cea56cd681ec699508"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3fe29ce84c9e40cea56cd681ec699508">&#9670;&#160;</a></span>next_server_ip_address</h2>
+<a id="afbc2daeb8627ccaf61f144b7e7f61894" name="afbc2daeb8627ccaf61f144b7e7f61894"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbc2daeb8627ccaf61f144b7e7f61894">&#9670;&#160;</a></span>next_server_ip_address</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">next_server_ip_address = package[20*2:24*2]</td>
+          <td class="memname">dhcp_server.PakageDhcp.next_server_ip_address = package[20*2:24*2]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00251">251</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
+
 </div>
 </div>
-<a id="a3cfe71f40b244562d3665516c3934c06" name="a3cfe71f40b244562d3665516c3934c06"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3cfe71f40b244562d3665516c3934c06">&#9670;&#160;</a></span>option</h2>
+<a id="a196c66e70e1a7ff06dea01a58bc2f164" name="a196c66e70e1a7ff06dea01a58bc2f164"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a196c66e70e1a7ff06dea01a58bc2f164">&#9670;&#160;</a></span>option</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">option = package[240*2:-1*2]</td>
+          <td class="memname">dhcp_server.PakageDhcp.option = package[240*2:-1*2]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00258">258</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
+
 </div>
 </div>
-<a id="a4cde2da8bc165143b1e45e37ad2a576b" name="a4cde2da8bc165143b1e45e37ad2a576b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4cde2da8bc165143b1e45e37ad2a576b">&#9670;&#160;</a></span>relay_agent_ip_address</h2>
+<a id="a031648f11a465148cb8dd4135802708d" name="a031648f11a465148cb8dd4135802708d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a031648f11a465148cb8dd4135802708d">&#9670;&#160;</a></span>relay_agent_ip_address</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">relay_agent_ip_address = package[24*2:28*2]</td>
+          <td class="memname">dhcp_server.PakageDhcp.relay_agent_ip_address = package[24*2:28*2]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00252">252</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
+
 </div>
 </div>
-<a id="a65f6f96b9b79ed02fc9c0d1b7db9a9e4" name="a65f6f96b9b79ed02fc9c0d1b7db9a9e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65f6f96b9b79ed02fc9c0d1b7db9a9e4">&#9670;&#160;</a></span>seconds_elapsed</h2>
+<a id="a9f67c44a49c619ed8a2761ed25c1b794" name="a9f67c44a49c619ed8a2761ed25c1b794"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f67c44a49c619ed8a2761ed25c1b794">&#9670;&#160;</a></span>seconds_elapsed</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">seconds_elapsed = package[8*2:10*2]</td>
+          <td class="memname">dhcp_server.PakageDhcp.seconds_elapsed = package[8*2:10*2]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00247">247</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
+
 </div>
 </div>
-<a id="ad369394eaed5e0431f331353dce02563" name="ad369394eaed5e0431f331353dce02563"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad369394eaed5e0431f331353dce02563">&#9670;&#160;</a></span>server_host</h2>
+<a id="ad7b334a11a29c2c162c1b2da86e31e8a" name="ad7b334a11a29c2c162c1b2da86e31e8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7b334a11a29c2c162c1b2da86e31e8a">&#9670;&#160;</a></span>server_host</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">server_host = package[44*2:108*2]</td>
+          <td class="memname">dhcp_server.PakageDhcp.server_host = package[44*2:108*2]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00255">255</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
+
 </div>
 </div>
-<a id="a36c52c43812f4c850ae2094cb198048e" name="a36c52c43812f4c850ae2094cb198048e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36c52c43812f4c850ae2094cb198048e">&#9670;&#160;</a></span>transaction_id</h2>
+<a id="a8bc5c8eb767bf924c1101d6bf2cca47e" name="a8bc5c8eb767bf924c1101d6bf2cca47e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bc5c8eb767bf924c1101d6bf2cca47e">&#9670;&#160;</a></span>transaction_id</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">transaction_id = package[4*2:8*2]</td>
+          <td class="memname">dhcp_server.PakageDhcp.transaction_id = package[4*2:8*2]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00246">246</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
+
 </div>
 </div>
-<a id="a83bb59ab1d5dc96b5c080ad36bcaa900" name="a83bb59ab1d5dc96b5c080ad36bcaa900"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a83bb59ab1d5dc96b5c080ad36bcaa900">&#9670;&#160;</a></span>your_client_ip_address</h2>
+<a id="a52cd3b79d88d2309987779a21ca97804" name="a52cd3b79d88d2309987779a21ca97804"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52cd3b79d88d2309987779a21ca97804">&#9670;&#160;</a></span>your_client_ip_address</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">your_client_ip_address = package[16*2:20*2]</td>
+          <td class="memname">dhcp_server.PakageDhcp.your_client_ip_address = package[16*2:20*2]</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="dhcp__server_8py_source.html#l00250">250</a> of file <a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="dhcp__server_8py.html">dhcp_server.py</a></li>
+<li><a class="el" href="dhcp__server_8py_source.html">dhcp_server.py</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
